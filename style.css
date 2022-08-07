@@ -63,7 +63,7 @@ h2 {
 
 .wrapper {
     position: relative;
-    border: 3px solid blueviolet;
+    /* border: 3px solid blueviolet; */
     margin: 0 auto;
     margin-top: 60px;
     max-width: 1100px;
@@ -84,16 +84,16 @@ h2 {
     left: 0;
     padding: 0px 20px;
     min-height: 70px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(209, 209, 209);
+    background-color: #e5e6e5;
 }
 
 
 .logo {
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 65%;
     height: 100%;
 }
@@ -108,22 +108,22 @@ h2 {
 
 #nav-bar {
     display: flex;  
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 35%;
     justify-content:space-between;
 
 }
 
 #nav-bar a {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 #main {
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 #hero {
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,7 +149,7 @@ h2 {
 }
 
 .img {
-    border: 2px solid forestgreen;
+    /* border: 2px solid forestgreen; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +165,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid hotpink;
+    /* border: 2px solid hotpink; */
 
 }
 
@@ -180,17 +180,17 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
 }
 
 #From_Farm_to_Table iframe {
     padding: 3rem;
-    border: 2px solid darkcyan;
+    /* border: 2px solid darkcyan; */
 
 }
 
 #Prices {
-    border: 2px solid hotpink;
+    /* border: 2px solid hotpink; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -203,7 +203,7 @@ h2 {
     height: 50px;
     background: linear-gradient(
         rgba(20, 30, 20, .1),
-        rgba(100, 100, 120, .3)   
+        rgba(100, 100, 120, .1)   
        );
     display: flex;
     align-items: center;
@@ -222,13 +222,34 @@ h2 {
 
 }
 
+.butn {
+    background: linear-gradient(
+        rgba(20, 30, 20, .1),
+        rgba(100, 100, 120, .1)   
+       );
+    border-radius: 2px;
+    border-style: none;
+    padding: 5px;
+    margin: 1.5rem auto;
+    width: 100%;
+}
+
+.butn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+        rgba(20, 30, 20, .4),
+        rgba(100, 100, 120, .5)   
+       );
+}
+
 #footer {
-    border: 2px solid goldenrod;
+    /* border: 2px solid goldenrod; */
    background: linear-gradient(
     rgba(20, 30, 20, .1),
-    rgba(100, 100, 120, .3)   
+    rgba(100, 100, 120, .1)   
    );
    padding: 0 10px;
+   margin-bottom: -5px;
 }
 
 #footer ul {
