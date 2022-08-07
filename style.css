@@ -153,6 +153,15 @@ h2 {
     /* width: 100%; */
 }
 
+#nav-bar a:hover{
+    /* background: linear-gradient(
+        rgba(20, 30, 20, .1),
+        rgba(100, 100, 120, .1)   
+       ); */
+
+    color:  rgb(168, 84, 175);
+}
+
 @media (max-width: 792px) {
  #nav-bar {
     display: flex;
@@ -266,6 +275,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 
